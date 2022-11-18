@@ -112,7 +112,7 @@ public class HangmanGame {
     }
 
     private String getRandomWorldFromList(ArrayList<String> list) {
-        int flag = (int) (Math.random() * (list.size() - 1));
+        int flag = (int) (Math.random() * (list.size()));
         return list.get(flag);
     }
 
